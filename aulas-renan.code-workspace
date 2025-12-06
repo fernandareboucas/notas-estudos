@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../aulas-levi"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "aulas-renan"
+	}
+}

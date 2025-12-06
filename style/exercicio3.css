@@ -1,0 +1,80 @@
+body {
+ background-color: #ffb0b0;
+ font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+
+header{
+    background-color: rgb(206, 102, 83);
+    color:#fcfcfc;
+    text-align: center;
+    padding: 20px;
+
+}
+header a {
+    text-decoration:none ;
+   color: #FFF;
+   background-color: rgb(233, 95, 95);
+   padding:5px 20px;
+   border-radius: 6px;
+}
+header a:hover{
+     background-color: rgb(159, 38, 38);
+}
+h1{
+    /* top righ bottom left */
+    margin: 0 0 10px 0;
+    /* margin-bottom: 10px; */
+}
+
+main{
+    padding:  16px;
+}
+
+section{
+    background-color: #facece;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 10px 0;
+}
+
+section h2 {
+    border-bottom: 5px solid rgb(255, 57, 57);
+}
+
+/*  Para referenciar ID é com # */
+#exemploid {
+    background-color: rgb(246, 176, 171);
+}
+
+/* para referenciar classe é com . */
+.exemploclass{
+    background-color: rgb(246, 176, 171);
+}
+ul a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: rgb(233, 95, 95);
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+ul a:hover{
+    background-color:rgb(157, 65, 65) ;
+}
+
+
+ol a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: rgb(233, 95, 95);
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+ ol a:hover{
+    background-color:rgb(157, 65, 65) ;
+}
+
+
+
+
+

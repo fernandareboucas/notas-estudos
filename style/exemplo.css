@@ -1,0 +1,72 @@
+body {
+ background-color: #e2e2e2;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+margin: 0;
+}
+
+header{
+    background-color: rgb(163, 109, 96);
+    color:#FFF;
+    text-align: center;
+    padding: 20px;
+
+}
+header a {
+    text-decoration:none ;
+   color: #FFF;
+   background-color: rgb(125, 85, 75);
+   padding:5px 20px;
+   border-radius: 4px;
+}
+header a:hover{
+     background-color: rgb(168, 120, 108);
+}
+h1{
+    /* top righ bottom left */
+    margin: 0 0 10px 0;
+    /* margin-bottom: 10px; */
+}
+
+main{
+    padding:  16px;
+}
+
+section{
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 10px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid rgb(163, 109, 96);
+}
+
+input, textarea, select{
+    width: 99%;
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button{
+    background-color: rgb(168, 120, 108);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  form button:hover{
+    background-color:rgb(128, 90, 81) ;
+  }
+
+
+/*  Para referenciar ID é com # */
+#exemploid {
+    background-color: rgb(238, 233, 145);
+}
+
+/* para referenciar classe é com . */
+.exemploclass{
+    background-color: rgb(248, 243, 172);
+}

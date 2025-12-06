@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(194, 116, 116);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    margin:0 auto;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    padding: 200px 60px;
+    width:1000px;
+    background-color:rgb(255, 179, 179);
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+form button{
+    background-color: rgb(252, 150, 150);
+    border: none;
+    padding: 15px 0px;
+    width: 77%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+ 
+  form button:hover{
+    background-color:rgb(185, 91, 91) ;
+  }
+
+  input{
+    border: 0;
+    border-bottom: 2px solid #fce6e6;
+    padding: 10px 8px;
+    width: 75%;
+    font-size:15px;
+    outline: none;
+    background: #e6e1e1;
+    transition: border-color .15s;
+  }
+
+.exemploclass{
+    background-color: rgb(105, 200, 148);
+    padding: 2px;
+}
+
+   
